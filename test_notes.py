@@ -8,3 +8,5 @@ def test_mention_bien():
     assert mention(14) == "Bien"
 def test_mention_ajourne():
     assert mention(8) == "Ajourné"
+def test_mention_tres_bien():
+    assert mention(17) == "Très bien"
